@@ -1,12 +1,54 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <script src="js/jquery-3.6.0.js"></script>
+    <script src="js/script.js"></script>
+    <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
+    <link href="css/style.css" rel="stylesheet" type="text/css">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>TRIANGLE TRACKER</title>
 </head>
 <body>
-    
+    <div class="container-fluid">
+        <img src="images/einstein_formula_mathematics_236630.jpg" alt="header" style="width: 100px; height: 72px; float: left;"><br>
+        <button style="float: right"><a href="index.html">HOmE</a></button>
+        <h1>TRIANGLE TRACKER</h1>
+</div>
+
+<form id="insurance">
+    <label for="Name"><strong>Name</strong></label> <br>
+    <input type="text" name="name" id="name" placeholder="Write your name" value="" autofocus class="form-control" required><br>
+    <label for="firstNumber"><strong>Size for first side of triangle </strong></label> <br>
+    <input type="number" name="firstNumber" id="firstNumber" placeholder="Write your  first Number" value="" autofocus class="form-control" required ><br>
+    <label for="secondNumber"><strong>Size for second side of triangle </strong></label> <br>
+    <input type="number" name="secondNumber" id="secondNumber" placeholder="Write your second Number" value="" class="form-control" required><br>
+    <label for="thirdNumber"><strong>Size for third side of triangle </strong></label> <br>
+    <input type="number" name="thirdNumber" id="thirdNumber" placeholder="Write your third Number" value="" class="form-control"><br>
+  
+    <button type="submit" class="btn">Find my Match</button>
+</form>
+<div id="result">
+<div id="youngFem">
+    <img src="images/regina daniels.jpg">
+
+    <p>This is your match</p>
+  </div>
+
+  <div id="maturedFem">
+    <img src="images/kate henshaw.jpg">
+
+    <p>This is your match</p>
+  </div> 
+  <div id="youngMale">
+    <img src="images/wizkid.jpg">
+    <p>This is your match</p>
+  </div>
+  <div id="maturedMale">
+    <img src="images/davido.jpg">
+
+    <p>This is your match</p>
+  </div>    
 </body>
 </html>
