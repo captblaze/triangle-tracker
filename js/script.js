@@ -6,18 +6,18 @@ $(document).ready(function() {
     const third =$("#thirdNumber").val();
     const fouth =$("#fouthNumber").val();
   
-    if ( gender=== "female" && ageBracket ==="young") {
-      $('#youngFem').show();
-    } else if (gender === "female" && ageBracket === "matured") {
-      
-      $('#maturedFem').show();
-    } else if (gender === "male" && ageBracket === "matured") {
-      
-        $('#maturedMale').show(); 
-    } else if (gender === "male" && ageBracket === "young")
-    $('#youngMale').show();    
-    else {
-     $('Please fill the form correctly or leave my dating app').show();
+    if ( first = second = third) {
+        console.log('it works')
+      $('#equilateral').show();
+    } else if (first = second != third) {
+        console.log('it works')
+      $('#isosceles').show();
+    } else if (first != second != third) {
+        console.log('it works')
+        $('#scalene').show(); 
+    }else {
+        console.log('it works')
+     $('#notTriangle').show();
     }
     event.preventDefault();
 
