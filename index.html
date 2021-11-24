@@ -25,30 +25,34 @@
     <label for="secondNumber"><strong>Size for second side of triangle </strong></label> <br>
     <input type="number" name="secondNumber" id="secondNumber" placeholder="Write your second Number" value="" class="form-control" required><br>
     <label for="thirdNumber"><strong>Size for third side of triangle </strong></label> <br>
-    <input type="number" name="thirdNumber" id="thirdNumber" placeholder="Write your third Number" value="" class="form-control"><br>
+    <input type="number" name="thirdNumber" id="thirdNumber" placeholder="Write your third Number" value="" class="form-control"  required><br>
+
+    <label for="fouthNumber"><strong>Size for a fouth nuber </strong></label> <br>
+    <input type="number" name="fouthNumber" id="fouthNumber" placeholder="Write a fouth Number" value="" class="form-control"><br>
   
-    <button type="submit" class="btn">Find my Match</button>
+    <button type="submit" class="btn-danger">Result</button>
 </form>
 <div id="result">
-<div id="youngFem">
-    <img src="images/regina daniels.jpg">
+<div id="equilateral">
+    <img src="images/equilateral-triangle.jpeg">
 
-    <p>This is your match</p>
+    <p>This is an equilateral triangle. <span style="font-style: italic;"> This triangle has all 3 sides equal</span></p>
+    
   </div>
 
-  <div id="maturedFem">
-    <img src="images/kate henshaw.jpg">
+  <div id="isosceles">
+    <img src="images/isosceles.jpeg">
 
-    <p>This is your match</p>
+    <p>This is an isosceles triangle. <span style="font-style: italic;"> This triangle has just 2 sides equal</span></p>
   </div> 
-  <div id="youngMale">
-    <img src="images/wizkid.jpg">
-    <p>This is your match</p>
+  <div id="scalene">
+    <img src="images/scalene.jpg">
+    <p>This is a Scalene triangle. <span style="font-style: italic;"> This triangle has no equal sides</span></p>
   </div>
-  <div id="maturedMale">
+  <div id="notTriangle">
     <img src="images/davido.jpg">
 
-    <p>This is your match</p>
+    <p>This is not a triangle.</p>
   </div>    
 </body>
 </html>

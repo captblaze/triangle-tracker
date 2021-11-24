@@ -1,5 +1,5 @@
 body{
-    background-color: black;
+   background:"images/dark.jpeg";
     color: burlywood;
 }
 h1{
@@ -15,4 +15,16 @@ h2{
 }
 .container-fluid{
 background: rgb(47, 103, 187);
+}
+#equilateral {
+    display: none;
+}
+#isosceles{
+    display: none;
+}
+#scalene{
+    display: none;
+}
+#notTriangle{
+    display: none;
 }
