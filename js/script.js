@@ -7,19 +7,20 @@ $(document).ready(function() {
     const fouth =$("#fouthNumber").val();
 
   
-    if (first === second || third) {
+    if (first === second && second === third && third===first) {
         console.log('it works')
       $('#equilateral').show();
-    } else if (first !== second !== third) {
+    } else if (first === second && first && second !== third || first === third && first && third !== second || second ===third && second && third !== first) {
         console.log('it works 2')
       $('#isosceles').show();
-    } else if (first !== second !== third) {
+    } else if (first !== second && second !== third && third !== first) {
         console.log('it works 3')
         $('#scalene').show(); 
     }else {
         console.log('it works 4')
-     $('#notTriangle').show();
+     $('#notTriangle').text(`this is not a triangle`);
     }
+
     event.preventDefault();
 
     });
