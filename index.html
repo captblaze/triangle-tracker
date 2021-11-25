@@ -10,49 +10,64 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>TRIANGLE TRACKER</title>
 </head>
-<body>
+<body style="background-image: url(images/einstein_formula_mathematics_236630.jpg);">
     <div class="container-fluid">
-        <img src="images/einstein_formula_mathematics_236630.jpg" alt="header" style="width: 100px; height: 72px; float: left;"><br>
-        <button style="float: right"><a href="index.html">HOmE</a></button>
+        <img src="images/dark.jpg" alt="header" style="width: 100px; height: 72px; float: left; border-radius: 35%;"><br>
+        <button style="float: right; color: darkturquoise;"><a href="index.html">HOmE</a></button>
         <h1>TRIANGLE TRACKER</h1>
 </div>
 
+<div class="container" style="background-image: url(images/equilateral-triangle.jpeg);">
+
 <form id="insurance">
+
     <label for="Name"><strong>Name</strong></label> <br>
-    <input type="text" name="name" id="name" placeholder="Write your name" value="" autofocus class="form-control" required><br>
+        <input type="text" name="name" id="name" placeholder="Write your name" value="" autofocus class="form-control" required><br>
+
     <label for="firstNumber"><strong>Size for first side of triangle </strong></label> <br>
-    <input type="number" name="firstNumber" id="firstNumber" placeholder="Write your  first Number" value="" autofocus class="form-control" required ><br>
+        <input type="number" name="firstNumber" id="firstNumber" placeholder="Write your  first Number" value="" autofocus class="form-control" required ><br>
+
     <label for="secondNumber"><strong>Size for second side of triangle </strong></label> <br>
-    <input type="number" name="secondNumber" id="secondNumber" placeholder="Write your second Number" value="" class="form-control" required><br>
+        <input type="number" name="secondNumber" id="secondNumber" placeholder="Write your second Number" value="" class="form-control" required><br>
+    
     <label for="thirdNumber"><strong>Size for third side of triangle </strong></label> <br>
-    <input type="number" name="thirdNumber" id="thirdNumber" placeholder="Write your third Number" value="" class="form-control"  required><br>
+        <input type="number" name="thirdNumber" id="thirdNumber" placeholder="Write your third Number" value="" class="form-control"  required><br>
 
     <label for="fouthNumber"><strong>Size for a fouth nuber </strong></label> <br>
-    <input type="number" name="fouthNumber" id="fouthNumber" placeholder="Write a fouth Number" value="" class="form-control"><br>
-  
-    <button type="submit" class="btn-danger">Result</button>
-</form>
-<div id="result">
-<div id="equilateral">
-    <img src="images/equilateral-triangle.jpeg">
+        <input type="number" name="fouthNumber" id="fouthNumber" placeholder="Write a fouth Number" value="" class="form-control"><br><br>
 
-    <p>This is an equilateral triangle. <span style="font-style: italic;"> This triangle has all 3 sides equal</span></p>
+        <button type="submit" class="btn-danger">Result</button>
+
+
+    </div>
+
     
-  </div>
 
-  <div id="isosceles">
-    <img src="images/isosceles.jpeg">
+</form>
+</div>
 
-    <p>This is an isosceles triangle. <span style="font-style: italic;"> This triangle has just 2 sides equal</span></p>
-  </div> 
-  <div id="scalene">
-    <img src="images/scalene.jpg">
-    <p>This is a Scalene triangle. <span style="font-style: italic;"> This triangle has no equal sides</span></p>
-  </div>
-  <div id="notTriangle">
-    <img src="images/einstein_formula_mathematics_236630.jpg">
+<div id="result">
+    <div id="equilateral">
+        <img src="images/equilateral-triangle.jpeg">
 
-    <p>This is not a triangle.</p>
-  </div>    
+            <p>This is an equilateral triangle. <span style="font-style: italic;"> This triangle has all 3 sides equal</span></p>
+    
+    </div>
+
+    <div id="isosceles">
+        <img src="images/isosceles.jpeg">
+
+            <p>This is an isosceles triangle. <span style="font-style: italic;"> This triangle has just 2 sides equal</span></p>
+    </div> 
+    <div id="scalene">
+        <img src="images/scalene.jpg">
+            <p>This is a Scalene triangle. <span style="font-style: italic;"> This triangle has no equal sides</span></p>
+    </div>
+    <div id="notTriangle">
+        <img src="images/einstein_formula_mathematics_236630.jpg">
+
+            <p>This is not a triangle.</p>
+    </div>    
+</div>
 </body>
 </html>

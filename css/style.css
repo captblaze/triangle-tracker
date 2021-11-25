@@ -1,6 +1,5 @@
 body{
-   background:"images/dark.jpeg";
-    color: burlywood;
+    color: rgb(3, 5, 3);
 }
 h1{
     text-align: center;
@@ -8,13 +7,13 @@ h1{
     font-style: italic;
     color: dodgerblue;
 }
-h2{
+p{
     text-align: justify;
     color: lightseagreen;
-    font-style: inherit;
+    font-style: italic;
 }
 .container-fluid{
-background: rgb(47, 103, 187);
+    background:blueviolet ;
 }
 #equilateral {
     display: none;

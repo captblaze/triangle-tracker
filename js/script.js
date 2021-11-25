@@ -5,18 +5,19 @@ $(document).ready(function() {
     const second =$("#secondNumber").val();
     const third =$("#thirdNumber").val();
     const fouth =$("#fouthNumber").val();
+
   
-    if ( first = second = third) {
+    if (first === second || third) {
         console.log('it works')
       $('#equilateral').show();
-    } else if (first = second != third) {
-        console.log('it works')
+    } else if (first !== second !== third) {
+        console.log('it works 2')
       $('#isosceles').show();
-    } else if (first != second != third) {
-        console.log('it works')
+    } else if (first !== second !== third) {
+        console.log('it works 3')
         $('#scalene').show(); 
     }else {
-        console.log('it works')
+        console.log('it works 4')
      $('#notTriangle').show();
     }
     event.preventDefault();
